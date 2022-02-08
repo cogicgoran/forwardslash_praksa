@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.posts__post-title {
+    font-size: 20px;
+    color: lightcoral;
+}
+
+.posts__post-body {
+    margin: 8px 0;
+}
+
+.posts__post {
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    padding: .5em;
+    border-radius: 1em;
+    border: 2px solid orange;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.post-highlight-container {
+    text-align: center;
+}
+
+.button-back {
+    background-color: lightsalmon;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+}
